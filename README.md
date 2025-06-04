@@ -34,19 +34,3 @@ price_data.loc[price_data['momentum'] <= 0, 'signal'] = -1
 
 print(price_data[['Close', 'momentum', 'signal']].tail())
 ```
-
-## Usage
-
-Run the provided `momentum_bot.py` script to execute the same workflow from the
-command line:
-
-```bash
-python momentum_bot.py AAPL --period 1y --window 20
-```
-
-This example downloads a year's worth of Apple stock data, computes 20-day momentum, and produces a basic trading signal.
-
-## Disclaimer
-
-This project is for educational purposes only. It does not constitute financial advice. Use at your own risk.
-

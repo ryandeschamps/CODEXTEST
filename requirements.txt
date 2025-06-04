@@ -1,0 +1,17 @@
+ib_insync
+pandas
+numpy
+scipy
+pandas-ta
+python-dotenv # Added for .env file support
+# Add other dependencies as needed:
+# scikit-learn (for ML models)
+# tensorflow or pytorch (for deep learning models)
+# matplotlib, seaborn (for plotting, if used directly in backend)
+# psycopg2-binary (if using PostgreSQL)
+# pyarrow (for Parquet)
+
+# Streamlit frontend dependencies
+streamlit
+plotly
+streamlit-plotly-events

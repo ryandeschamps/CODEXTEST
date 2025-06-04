@@ -34,9 +34,3 @@ price_data.loc[price_data['momentum'] <= 0, 'signal'] = -1
 
 print(price_data[['Close', 'momentum', 'signal']].tail())
 ```
-
-This example downloads a year's worth of Apple stock data, computes 20-day momentum, and produces a basic trading signal.
-
-## Disclaimer
-
-This project is for educational purposes only. It does not constitute financial advice. Use at your own risk.
